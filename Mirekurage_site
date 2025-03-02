@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!--基本設定-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirekurege_home</title>
+
+    <!--CSSとISの読み込み-->
+    <link rel="stylesheet" href="CSS/Mirekurage_home.css">
+    <script src="JS/Mirekurage_home.js"></script>
+
+    <!--Splideの読み込み-->
+    <link rel="CSS/splide.min.css">
+
+    <!--Google Fontの読み込み-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+
+    <!--ファビコンの読み込み-->
+    <link rel="icon" href="Material/Mirekurage_favicon.ico">
+</head>
+
+<body>
+    <!--Splideの読み込み、JSの方-->
+    <script src="JS/splide.min.js"></script>
+
+    <header>
+        <!--メニュー画面-->
+            <a class="namelogo_image" a href="#"></a>
+            </div>
+        <!--ヘッダー画像-->
+    <div class="header_image">
+    </div>
+
+    <!--ハンバーガーメニュー-->
+    <!--リスト全体-->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon">
+                <span class="navicon">
+                </span></label>
+                    <ul class="menu">
+                        <li class="top"><a href="#">ホーム</a></li>
+                        <li><a href="#">ポートフォリオ</a></li>
+                        <li><a href="#">ご依頼について</a></li>
+                        <li><a href="#">SNS一覧</a></li>
+                        <li><a href="#">オリジナル作品</a></li>
+                        <li><a href="#">サイトについて</a></li>
+                    </ul>
+
+    
+    </header>
+
+    <main>
+        <!--ローディング画面-->
+        <div id="loading">
+            <div class="loading_image"></div>
+            <p class="loading_text"><span>Now Lowding…</span></p>
+        </div>
+
+        <!--スライダー-->
+
+        <!--上に戻るボタン-->
+        <!--まずこれにリンクを持たせる-->
+        <a href="#top">
+            <!--そして装飾するためにクラスを付与-->
+            <div class="fuwafuwa">
+            </div>
+        </a>
+    </main>
+
+    <!--ここからフッター-->
+    <footer>
+        <!--フッター背景-->
+        <div class="footer_image">
+            <ul class="lists">
+                <li class="list"><a href="#">ホーム</a></li>
+                <li class="list"><a href="#">ポートフォリオ</a></li>
+                <li class="list"><a href="#">依頼について</a></li>
+                <li class="list"><a href="#">SNS一覧</a></li>
+                <li class="list"><a href="#">オリジナル作品</a></li>
+                <li class="list"><a href="#">サイトについて</a></li>
+            </ul>
+        </div>
+        
+    </footer>
+</body>
+</html>
